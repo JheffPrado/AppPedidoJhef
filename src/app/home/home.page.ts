@@ -9,9 +9,9 @@ import { NavController } from '@ionic/angular';
 export class HomePage {
   public categorias = [
     { codigo: 1, nome: 'Pizzas'    },
-    { codigo: 2, nome: 'Burguers'  },
+    { codigo: 2, nome: 'Hamburguers'  },
     { codigo: 3, nome: 'Assados'   },
-    { codigo: 4, nome: 'Cachorrão' }
+    { codigo: 4, nome: 'hotDogão' }
   ]
 
   public slideOpts = {
@@ -19,18 +19,18 @@ export class HomePage {
   }
 
   public produtos = [
-    { codigo: 1, categoria: 3, descricao: 'Pastel dos deuses ', nome: 'Pastel de Chocolate',         valor: 5.50, imagens: ['PastelChocolate.jpg'], visibled: false },
-    { codigo: 2, categoria: 3, descricao: 'Pastel dos deuses ', nome: 'Coxinha de Frango',            valor: 5.00, imagens: ['CoxinhaFrango.png'], visibled: false },
-    { codigo: 3, categoria: 3, descricao: 'Pastel dos deuses ', nome: 'Pastel de Frango', valor: 6.00, imagens: ['PastelFrango.jpg'], visibled: false },
-    { codigo: 6, categoria: 1, descricao: 'Pizza dos deuses ', nome: 'Pedaço de Pizza',         valor: 7.00, imagens: ['pedacopizza.jpg' ], visibled: false },
-    { codigo: 7, categoria: 1, descricao: 'Pizza dos deuses ', nome: 'Pizza Calabresa',        valor: 26.00, imagens: ['pizzaCalabresa.jpg' ], visibled: false },
-    { codigo: 8, categoria: 1, descricao: 'Pizza dos deuses ', nome: 'Pizza Fina',         valor: 55.90, imagens: ['pizzafina.jpg' ], visibled: false },
-    { codigo: 10, categoria: 2, descricao: 'Hamburguer dos deuses ', nome: 'Burguer Cheeseburger',      valor: 14.00, imagens: ['BurguerCheeseburger.png' ], visibled: false },
-    { codigo: 11, categoria: 2, descricao: 'Hamburguer dos deuses', nome: 'Hamburger Big King',     valor: 16.00, imagens: ['HamburgerBigKing.jpg' ], visibled: false },
-    { codigo: 12, categoria: 2, descricao: 'Hamburguer dos deuses', nome: 'hamburguer Family',       valor: 18.00, imagens: ['hamburguerFamily.png' ], visibled: false },
-    { codigo: 13, categoria: 4, descricao: 'Cachorro Quente dos deuses', nome: 'Cachorro Quente Comum',                    valor: 10.00, imagens: ['CachorroComum.png' ], visibled: false },
-    { codigo: 14, categoria: 4, descricao: 'Cachorro Quente dos deuses', nome: 'Cachorro Quente Gourmet',                      valor: 12.00, imagens: ['CachorroQuenteGourmet.jpg' ], visibled: false },
-    { codigo: 15, categoria: 4, descricao: 'Cachorro Quente dos deuses', nome: 'Combo Dois Cachorros',        valor: 18.00, imagens: ['ComboDoisCachorros.jpg' ], visibled: false }
+    { codigo: 1, categoria: 3, descricao: 'Pastel bom pra bexiga ', nome: 'Pastel de Chocolate',         valor: 5.50, imagens: ['PastelChocolate.jpg'], visibled: false },
+    { codigo: 2, categoria: 3, descricao: 'Pastel bom pra bexiga ', nome: 'Coxinha de Frango',            valor: 5.00, imagens: ['CoxinhaFrango.png'], visibled: false },
+    { codigo: 3, categoria: 3, descricao: 'Pastel bom pra bexiga ', nome: 'Pastel de Frango', valor: 6.00, imagens: ['PastelFrango.jpg'], visibled: false },
+    { codigo: 6, categoria: 1, descricao: 'Pizza bom pra bexiga ', nome: 'Pedaço de Pizza',         valor: 7.00, imagens: ['pedacopizza.jpg' ], visibled: false },
+    { codigo: 7, categoria: 1, descricao: 'Pizza bom pra bexiga ', nome: 'Pizza Calabresa',        valor: 26.00, imagens: ['pizzaCalabresa.jpg' ], visibled: false },
+    { codigo: 8, categoria: 1, descricao: 'Pizza bom pra bexiga ', nome: 'Pizza Fina',         valor: 55.90, imagens: ['pizzafina.jpg' ], visibled: false },
+    { codigo: 10, categoria: 2, descricao: 'Hamburguer bom pra bexiga ', nome: 'Burguer Cheeseburger',      valor: 14.00, imagens: ['BurguerCheeseburger.png' ], visibled: false },
+    { codigo: 11, categoria: 2, descricao: 'Hamburguer bom pra bexiga', nome: 'Hamburger Big King',     valor: 16.00, imagens: ['HamburgerBigKing.jpg' ], visibled: false },
+    { codigo: 12, categoria: 2, descricao: 'Hamburguer bom pra bexiga', nome: 'hamburguer Family',       valor: 18.00, imagens: ['hamburguerFamily.png' ], visibled: false },
+    { codigo: 13, categoria: 4, descricao: 'Cachorro Quente bom pra bexiga', nome: 'Cachorro Quente Comum',                    valor: 10.00, imagens: ['CachorroComum.png' ], visibled: false },
+    { codigo: 14, categoria: 4, descricao: 'Cachorro Quente bom pra bexiga', nome: 'Cachorro Quente Gourmet',                      valor: 12.00, imagens: ['CachorroQuenteGourmet.jpg' ], visibled: false },
+    { codigo: 15, categoria: 4, descricao: 'Cachorro Quente bom pra bexiga', nome: 'Combo Dois Cachorros',        valor: 18.00, imagens: ['ComboDoisCachorros.jpg' ], visibled: false }
   ]
 
   public pathImgs = '../../assets/img/';
